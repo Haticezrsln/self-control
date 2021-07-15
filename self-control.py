@@ -118,7 +118,7 @@ class SecondPage(QWidget):
     def __init__(self):
         QWidget.__init__(self)
 
-        time.sleep(2)
+        time.sleep(2)#saniye şeklinde zaman ayarlayabilrisiniz.#
         self.yazi = QLineEdit(self)  
         self.yazi.move(60, 70)
         self.yazi.resize(310,40)
